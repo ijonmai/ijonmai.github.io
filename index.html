@@ -13,32 +13,36 @@
 </head>
 <body>
   
-  
-  <nav class="white" role="navigation">
+<ul id='dropdown1' class='dropdown-content'>
+    <li><a href="Portraits.html">Portrait</a></li>
+    <li><a href="Engagements.html">Engagements</a></li>
+    <li><a href="Special-Events.html">Special Events</a></li>
+</ul>
+    
+  <nav class="teal" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">JMai Photography</a>
-
-
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbar Link</a></li>
+      <a href="#" class="brand-logo left white-text">JMai Photography</a>
+      <ul class="right hide-on-med-and-down">
+          <li><a class="white-text" href="index.html">Home</a></li>
+          <li><a class="dropdown-button white-text" href="#!" data-activates="dropdown1">Photos<i class="material-icons right">arrow_drop_down</i></a></li>
+          <li><a class="white-text" href="contact.html">Contact</a></li>
       </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-    </div>
+    </div>      
   </nav>
-
+    
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
         <h1 class="header center grey-text text-lighten-2"> </h1>
         <div class="row center">
-          <h3 class="header col s12 light"><em><span style="text-shadow: 1px 1px 1px black"><b>The moments pass so quickly, but <br>the memories are forever.</b></span></em></h3>
+          <h3 class="header col l12 light"><em><span style="text-shadow: 1px 1px 1px black"><b>The moments pass so quickly, but <br>the memories are forever.</b></span></em></h3>
         </div>
         <br><br>
 
       </div>
     </div>
-    <div class="parallax"><img class="none" src="headimage.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax"><img class="none" src="imgs/FrontPage/headimage.jpg" alt="Unsplashed background img 1"></div>
   </div>
 
 
@@ -52,7 +56,7 @@
         <div class="col l4">
           <div class="icon-block">
             
-            <h2 class="center brown-text"><img src = "portrait.jpg" width="100%" height="100%"></h2>
+            <h2 class="center brown-text"><img src = "imgs/FrontPage/portrait.jpg" width="100%" height="100%"></h2>
             <h4 class="center">Portraits</h4>
 
             <p class="light" style="font-size: 20px">My portrait photography ranges between anything from professional headshots to senior portrait photography.</p>
@@ -62,7 +66,7 @@
         <div class="col l4">
           <div class="icon-block">
             
-            <h2 class="center brown-text"><img src = "Engagements.jpg" width="100%" height="100%"></h2>
+            <h2 class="center brown-text"><img src = "imgs/FrontPage/Engagements.jpg" width="100%" height="100%"></h2>
             <h4 class="center">Engagements</h4>
 
             <p class="light" style="font-size: 20px">Recently engaged? Let me capture your special moments together!</p>
@@ -71,7 +75,7 @@
 
         <div class="col l4">
           <div class="icon-block">
-            <h2 class="center brown-text"><img src = "SpecialEvents.jpg" width="100%" height="100%"></h2>
+            <h2 class="center brown-text"><img src = "imgs/FrontPage/SpecialEvents.jpg" width="100%" height="100%"></h2>
             <h4 class="center">Special Events</h4>
 
             <p class="light" style="font-size: 20px">Prom, graduations, maternity, LAN events, culture nights, you name it, I can do it! Inquire for details.</p>
@@ -91,7 +95,7 @@
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="JPEG-2.jpg" alt="Unsplashed background img 2" ></div>
+    <div class="parallax"><img src="imgs/FrontPage/JPEG-2.jpg" alt="Unsplashed background img 2" ></div>
   </div>
 
   <div class="container">
@@ -117,7 +121,7 @@
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="JPEG-22.jpg" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><img src="imgs/FrontPage/JPEG-22.jpg" alt="Unsplashed background img 3"></div>
   </div>
 
   <footer class="page-footer teal">
@@ -132,14 +136,13 @@
     <div class="footer-copyright">
       <div class="container">
       © 2016 JMai Photography<br>
-      <a href="http://www.facebook.com/JMaiPhotography" target="_blank"> <img src="facebook.png" height = "30" style="align:center"/>
+      <a href="http://www.facebook.com/JMaiPhotography" target="_blank"> <img src="imgs/FrontPage/facebook.png" height = "30" style="align:center"/>
       </div>
     </div>
   </footer>
 
 
-  <!--  Scripts-->
-  
+  <!--  Scripts-->  
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
