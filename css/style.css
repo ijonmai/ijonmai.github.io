@@ -85,6 +85,11 @@ footer.page-footer {
     display: inline-block;
 }
 
+card-wow-fadeIn img{
+    max-width: 50%;
+    max-height: 100%;
+}
+
 img {
   display: block;
 }
